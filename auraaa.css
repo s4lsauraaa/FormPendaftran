@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8a9f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  form {
+    background-color: #edd7f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Label Styling */
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="date"],
+  select,
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Radio and Checkbox Styling */
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+  }
+  
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Button Styling */
+  button[type="submit"] {
+    background-color: #925ab3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c04b85;
+  }
+  
+  /* Div Spacing */
+  div {
+    margin-bottom: 16px;
+  }
+  
+  /* Form Title */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
